@@ -1,0 +1,56 @@
+<div id="homecontent">
+    <div id="homeheadpanel">
+    
+        <div class="imageslide">
+            <ng-image-slider [images]="imageObject" [imageSize]="{width: '100%', height: '50%', space: 3}" #nav></ng-image-slider>
+        </div>
+    </div>    
+
+    <div class="product">
+        <div class='productlink' >
+            <div class='productlinktext' >
+                <img src="/assets/images/Cinnamon/Cinamon.jpg" title="Cinamon" [routerLink]="['/cinamon']"/>              
+            </div>
+            <div class='productlinktext' >
+                <p>Ceylon cinnamon is known as ‘true cinnamon’ and ‘pure cinnamon’. 
+                    It is obtained from the bark of Cinnamonum zealanicum,               
+                    Ceylon cinnamon is different from other varieties. It has a distinctive shape, 
+                    lighter color, and delicate taste. It also has properties that contribute to many health benefits.
+                </p>
+            </div>
+            <span class="textbelowimg">Cinnamon</span>
+        </div>
+        <div class='productlink' >
+            <div class='productlinktext' >
+                <img src="/assets/images/Pepper/Pepper.jpg" title="Pepper" [routerLink]="['/pepper']"/>
+            </div>
+            <div class='productlinktext' >
+                <p>Ceylon Pepper is particularly favoured worldwide as it is quite rich in piperine, 
+                    the alkaloid which lends it a distinct pungency. A
+                     a result, Ceylon Pepper from Sri Lanka fetches a premium price in the international spice market.
+                     The taste of Sri Lankan black pepper is richly aromatic, with floral and citrus notes, while retaining a strong pungency.                      
+                </p>
+            </div>
+            <span class="textbelowimg">Pepper</span>
+        </div>
+
+
+    </div>
+        
+
+        
+
+        
+    
+    <!--<div class="product">
+        <div class='productlink' >
+            <img src="/assets/images/Cinnamon/Cinamon.jpg" title="Cinamon" [routerLink]="['/cinamon']"/>
+        </div>
+
+        <div class='productlink' >
+            <img src="/assets/images/Pepper/Pepper.jpg" title="Pepper" [routerLink]="['/pepper']"/>
+        </div>
+        
+    </div>  -->
+</div>
+

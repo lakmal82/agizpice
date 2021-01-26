@@ -1,0 +1,100 @@
+
+.navbar{
+    border-top: goldenrod solid 2px;
+    padding-top: 5px;
+    background-color: rgb(44, 70, 6);
+    min-height: 40px;
+    color: #ffffff;
+}
+
+.nav li{
+    display: inline;
+    padding: 100px;
+    
+}
+.nav-link {
+  color: darkkhaki;
+}
+
+.footbanner{
+ text-align: center;
+ background-color: lightgrey;
+ font-size: 10px;
+}
+
+#homeBanner{
+  background-color: rgb(44, 70, 6);
+    margin-top: 0;
+    padding-top: 0;
+    min-height: 60px;    
+
+}
+
+
+#homeBanner h1{
+    margin: 0;
+    padding-top: 15px;
+    color: darkkhaki;
+    text-align: center;
+    font-size: 25px;
+
+}
+#homeBanner  img{
+  padding-left: 1px;
+  padding-top: 10px;
+  height:50px;
+  
+  box-sizing: border-box;
+}
+
+
+ #compLogo{
+  float: left;          
+  margin-left: 0;
+  min-height: 60px;
+  min-width: 60px;
+  background-color: #ffffff;
+}
+
+
+/* Dropdown Button */
+.dropbtn {
+  background-color: rgb(44, 70, 6);
+  color: darkkhaki;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  background-color:  rgb(44, 70, 6) ;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {text-decoration: underline; cursor: pointer;}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown *//
+.dropdown:hover .dropbtn {text-decoration: underline; cursor: default;}

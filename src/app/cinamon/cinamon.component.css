@@ -1,0 +1,90 @@
+
+  .imageslide{
+    width: 30%;
+    height: 40%;
+    float: right;
+    
+    
+  }  
+
+      
+    #cinDesc{            
+      
+      margin: 0;
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+   
+
+    #cinDesc h2{
+      text-decoration: solid underline;
+    }
+    #homecontent{
+      padding-left: 10px;            
+      padding-right: 10px;      
+      margin: 0;
+    }
+
+    ul .bullets{
+      padding-left: 100px;
+     list-style-type: square;
+     color: black;
+    }
+
+  #siteDesc h2{
+    text-decoration: solid underline;
+  }
+  .cinSections{
+    margin: auto;
+    box-sizing: border-box;
+
+  }
+  .cinSections h3{
+    text-align: center;
+  }
+  .important {
+    font-weight: bold ;
+    font-style: italic;
+  }
+
+.leftImage img{
+    
+    margin: auto;    
+    width: 40%;
+}
+.rightImage{
+  float: right;    
+  width: 40%;
+  
+}
+
+.rightImage img{
+    width: 40%;  
+}
+
+
+.leftImage {
+  width: 40%;  
+}
+.left {   
+  width: 40%;  
+    
+}
+.right{   
+  width: 40%;
+  
+}
+
+.subheadding{
+  text-decoration: underline;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td{
+  text-align: center;
+  font-size: 12px;
+  padding-right: 15px;
+}

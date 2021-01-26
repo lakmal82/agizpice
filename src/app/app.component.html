@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <Body>
+    
+    <div id="homeBanner">
+      <div class="left">
+        <div id="compLogo"> 
+          <img src="/assets/images/Logo.jpg" >
+        </div>
+      </div>
+      <h1>Ceylon Spice</h1>
+    </div>
+    
+    <nav class="navbar navbar-expand-lg navbar-inverse"> 
+      
+      <div class="container">
+        
+        <ul class="nav navbar-nav " routerLinkActive="active">
+              <li class="nav-item"><a class="nav-link" routerLink="home">Home</a></li>
+              <li class="nav-item"><a class="nav-link" routerLink="aboutUs">About Us</a></li>
+              <li class="nav-item"><a class="nav-link" routerLink="partners">Contact Us</a></li>
+          </ul>          
+      </div>
+    </nav>
+    
+    
+  <div class="content">
+    <router-outlet></router-outlet>
+  </div>
+  <div class="clearformat"></div>
+  <div class="footbanner">
+    @ Agice Spice 2020
+  </div>
+
+  </Body>
+</html>
